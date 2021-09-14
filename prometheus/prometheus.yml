@@ -1,6 +1,6 @@
 global:
   scrape_interval: 5s
 scrape_configs:
-  - job_name: "example-nodejs-app"
+  - job_name: "nodejs-web-app"
     static_configs:
       - targets: ["nodejs-web-app:8080"]
