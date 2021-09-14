@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-app",
+  "name": "nodejs-web-app",
   "version": "1.0.0",
   "description": "Node.js Monitoring with Prometheus and Grafana",
   "main": "index.js",

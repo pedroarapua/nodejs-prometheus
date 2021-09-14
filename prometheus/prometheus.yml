@@ -3,4 +3,4 @@ global:
 scrape_configs:
   - job_name: "example-nodejs-app"
     static_configs:
-      - targets: ["nodejs-app:8080"]
+      - targets: ["nodejs-web-app:8080"]
