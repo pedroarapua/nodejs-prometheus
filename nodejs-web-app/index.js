@@ -39,7 +39,7 @@ const createOrderHandler = async (req, res) => {
 const server = http.createServer(async (req, res) => {
   const end = httpRequestDurationMicroseconds.startTimer();
   const route = url.parse(req.url).pathname;
-  console.info(`Received request HOST => ${hostname}, ROUTE => ${route}`)
+  console.info(`${new Date().toISOString()} Received request HOST => ${hostname}, ROUTE => ${route}`)
   try {
       if (route === '/metrics') {
         res.setHeader('Content-Type', register.contentType)
