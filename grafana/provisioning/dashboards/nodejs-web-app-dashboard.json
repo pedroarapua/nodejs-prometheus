@@ -3,7 +3,7 @@
     "list": [
       {
         "builtIn": 1,
-        "datasource": "-- Grafana --",
+        "datasource": "Prometheus",
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
@@ -26,7 +26,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -43,7 +43,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {
@@ -147,7 +147,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {
@@ -248,7 +248,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -261,7 +261,7 @@
       "type": "row"
     },
     {
-      "datasource": null,
+      "datasource": "Prometheus",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -327,7 +327,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {
@@ -430,7 +430,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {
@@ -529,7 +529,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -546,7 +546,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "decimals": 3,
       "description": "",
       "fieldConfig": {
@@ -681,7 +681,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "decimals": 3,
       "description": "",
       "fieldConfig": {
@@ -830,7 +830,7 @@
             "$__all"
           ]
         },
-        "datasource": null,
+        "datasource": "Prometheus",
         "definition": "label_values(http_request_duration_seconds_bucket{route!~\"/metrics|/favicon.ico\"}, method)",
         "description": null,
         "error": null,
@@ -861,7 +861,7 @@
             "$__all"
           ]
         },
-        "datasource": null,
+        "datasource": "Prometheus",
         "definition": "label_values(http_request_duration_seconds_bucket{route!~\"/metrics|/favicon.ico\"}, route)",
         "description": null,
         "error": null,
@@ -892,7 +892,7 @@
             "$__all"
           ]
         },
-        "datasource": null,
+        "datasource": "Prometheus",
         "definition": "label_values(http_request_duration_seconds_bucket{route!~\"/metrics|/favicon.ico\"}, code)",
         "description": null,
         "error": null,
@@ -932,7 +932,7 @@
     ]
   },
   "timezone": "",
-  "title": "NodeJS App Dashboard",
+  "title": "NodeJS Web App Dashboard",
   "uid": "_tWOnYInz",
   "version": 1
 }
